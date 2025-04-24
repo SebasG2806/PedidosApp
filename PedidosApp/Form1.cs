@@ -15,6 +15,9 @@ namespace PedidosApp
         public Form1()
         {
             InitializeComponent();
+            cmbProducto.Items.Add("tecnologia");
+            cmbProducto.Items.Add("accesorio");
+            cmbProducto.Items.Add("componente");
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
