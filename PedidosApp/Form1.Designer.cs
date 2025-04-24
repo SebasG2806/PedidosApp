@@ -147,6 +147,7 @@ namespace PedidosApp
             this.btnCerrar.TabIndex = 11;
             this.btnCerrar.Text = "CERRAR";
             this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // Form1
             // 

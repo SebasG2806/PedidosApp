@@ -52,5 +52,10 @@ namespace PedidosApp
                 MessageBox.Show($"Ocurrió un error inesperado: {ex.Message}\nStackTrace: {ex.StackTrace}", "Error General", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
