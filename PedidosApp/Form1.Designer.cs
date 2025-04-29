@@ -41,6 +41,7 @@ namespace PedidosApp
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnHistorial = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nupPeso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupDistancia)).BeginInit();
             this.SuspendLayout();
@@ -149,11 +150,21 @@ namespace PedidosApp
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // btnHistorial
+            // 
+            this.btnHistorial.Location = new System.Drawing.Point(242, 289);
+            this.btnHistorial.Name = "btnHistorial";
+            this.btnHistorial.Size = new System.Drawing.Size(93, 59);
+            this.btnHistorial.TabIndex = 12;
+            this.btnHistorial.Text = "HISTORIAL";
+            this.btnHistorial.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(651, 371);
+            this.Controls.Add(this.btnHistorial);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.lblResultado);
@@ -189,6 +200,7 @@ namespace PedidosApp
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button btnHistorial;
     }
 }
 
