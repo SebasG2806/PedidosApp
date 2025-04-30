@@ -13,15 +13,12 @@ namespace PedidosApp
             if(tipoProducto.ToLower()== "tecnologia" && urgente)
             {
                 return new EntregaDron();
-            } else if(tipoProducto.ToLower() == "accesorio")
+            } else if(tipoProducto.ToLower() == "accesorio" && peso < 2 && !urgente)
             {
-                return new EntregaMoto();
+                return new EntregaBicicleta();
             }else if(tipoProducto.ToLower() == "componente" || peso > 10)
             {
                 return new EntregaCamion();
-            }else if(tipoProducto.ToLower() == "accesorio" && peso < 2 && !urgente)
-            {
-                return new EntregaBicicleta();
             }
             else
             {
