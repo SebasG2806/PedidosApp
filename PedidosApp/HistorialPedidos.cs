@@ -16,5 +16,10 @@ namespace PedidosApp
         {
             InitializeComponent();
         }
+
+        private void HistorialPedidos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
