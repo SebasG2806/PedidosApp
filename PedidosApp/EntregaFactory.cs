@@ -19,6 +19,9 @@ namespace PedidosApp
             }else if(tipoProducto.ToLower() == "componente" || peso > 10)
             {
                 return new EntregaCamion();
+            }else if(tipoProducto.ToLower() == "accesorio" || peso < 2)
+            {
+                return new EntregaBicicleta();
             }
             else
             {
