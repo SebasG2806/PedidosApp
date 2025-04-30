@@ -60,5 +60,11 @@ namespace PedidosApp
         {
             Application.Exit();
         }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            HistorialPedidos historialForm = new HistorialPedidos();
+            historialForm.Show();
+        }
     }
 }

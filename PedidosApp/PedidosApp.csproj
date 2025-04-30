@@ -57,6 +57,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HistorialPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistorialPedidos.Designer.cs">
+      <DependentUpon>HistorialPedidos.cs</DependentUpon>
+    </Compile>
     <Compile Include="IMetodoEntrega.cs" />
     <Compile Include="Pedido.cs" />
     <Compile Include="Program.cs" />
