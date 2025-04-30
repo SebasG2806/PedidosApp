@@ -49,6 +49,7 @@ namespace PedidosApp
             this.cmbTipoEntrega.Name = "cmbTipoEntrega";
             this.cmbTipoEntrega.Size = new System.Drawing.Size(213, 21);
             this.cmbTipoEntrega.TabIndex = 1;
+            this.cmbTipoEntrega.SelectedIndexChanged += new System.EventHandler(this.cmbTipoEntrega_SelectedIndexChanged);
             // 
             // HistorialPedidos
             // 
