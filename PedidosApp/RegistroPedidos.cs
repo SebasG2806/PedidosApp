@@ -39,5 +39,15 @@ namespace PedidosApp
                 Pedidos.Add(pedido);
             }
         }
+
+        public List<Pedido> ObtenerPedido()
+        {
+            return Pedidos; 
+        }
+
+        public List<string> ObtenerTiposEntrega()
+        {
+            return Pedidos.Select(p => p.MetodoEntrega.TipoEntrega()).Distinct().ToList();
+        }
     }
 }
